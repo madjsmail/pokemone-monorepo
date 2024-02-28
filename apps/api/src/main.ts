@@ -1,12 +1,12 @@
 import express from 'express';
 import { pokemon } from './pokemon';
-import * as cors from 'cors';
+
 
 const host = process.env.HOST ?? 'localhost';
 const port = process.env.PORT ? Number(process.env.PORT) : 3001;
 
 const app = express();
-app.use(cors());
+
 app.get('/', (req, res) => {
   res.send({ message: 'Hello API haha' });
 });
