@@ -1,0 +1,8 @@
+{
+  "name": "next-pokemone",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/next-pokemone",
+  "projectType": "application",
+  "targets": {},
+  "tags": []
+}
